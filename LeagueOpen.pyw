@@ -40,7 +40,7 @@ if SignPass:
 	pyautogui.click(passX, passY)
 	print('Entering Password')
 	time.sleep(0.5)
-	pyautogui.typewrite('Eclecticowl12', interval=0.1)
+	pyautogui.typewrite('YOUR_PASSWORD', interval=0.1)
 	
 	#next we locate the login button to sign into the game
 	# I have two logins, one that colored blue and another that just gray
